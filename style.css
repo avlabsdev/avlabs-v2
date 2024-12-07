@@ -18,7 +18,7 @@ body {
   font-family: Poppins, sans-serif;
   display: flex;
   flex-direction: column;
-  gap: 10rem;
+  gap: 12rem;
   padding: 2rem;
   background-color: #eee;
 }
@@ -98,7 +98,7 @@ nav a {
 main {
   display: flex;
   flex-direction: column;
-  gap: 14rem;
+  gap: 16rem;
 }
 
 section .container {
@@ -153,10 +153,6 @@ section .copy {
   align-items: center;
   gap: 0.5rem;
   margin-top: 1rem;
-}
-
-footer {
-  margin-top: 2rem;
 }
 
 footer .container {
