@@ -46,8 +46,14 @@ a {
   text-decoration: none;
 }
 
+p a {
+  color: #6c63ff;
+  text-decoration: underline;
+}
+
 .italic {
   font-style: italic;
+  font-weight: 400;
 }
 
 i {
@@ -100,39 +106,22 @@ section .container {
   gap: 1rem;
 }
 
-#section-intro img {
+section img {
   margin-bottom: 1rem;
   max-width: 50%;
 }
 
-#section-intro .container {
+section .container {
   flex-direction: row;
   align-items: center;
   gap: 4rem;
 }
 
-#section-intro .copy {
+section .copy {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   min-width: 50%;
-}
-
-#section-services .container {
-  flex-direction: row;
-  gap: 4rem;
-  align-items: center;
-}
-
-#section-services .copy {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  min-width: 50%;
-}
-
-#section-services img {
-  max-width: 50%;
 }
 
 .button-primary {
@@ -167,7 +156,7 @@ section .container {
 }
 
 footer {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 footer .container {
