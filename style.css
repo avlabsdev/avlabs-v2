@@ -18,7 +18,7 @@ body {
   font-family: Poppins, sans-serif;
   display: flex;
   flex-direction: column;
-  gap: 12rem;
+  gap: 8rem;
   padding: 3rem 2rem;
   background-color: #fff;
 }
@@ -102,7 +102,11 @@ nav a {
 main {
   display: flex;
   flex-direction: column;
-  gap: 16rem;
+  gap: 12rem;
+}
+
+section {
+  padding: 4rem 0;
 }
 
 section .container {
