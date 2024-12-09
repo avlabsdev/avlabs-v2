@@ -1,5 +1,15 @@
-let homeBtn = document.querySelector("#button-home");
+// fetch("../db.json")
+//   .then(res => res.json())
+//   .then(data => console.log(data))
 
-homeBtn.addEventListener("click", function (e) {
-  console.log("clicked!");
-});
+// let goodMjProjectDetailsModalBtn = document.querySelector("#goodMjProjectDetailsModalBtn");
+// let goodMjModal = document.querySelector("#goodMjModal");
+// let closeGoodMjModalBtn = document.querySelector("#closeGoodMjModalBtn");
+
+// goodMjProjectDetailsModalBtn.addEventListener("click", function (e) {
+//     goodMjModal.style.display = "flex";
+// });
+
+// closeGoodMjModalBtn.addEventListener("click", function (e) {
+//     goodMjModal.style.display = "none";
+// });

@@ -1,0 +1,25 @@
+{
+    "projects": [
+        {
+            "title": "GoodMj",
+            "description": "Medical cannabis app. Affordable cannabis for all.",
+            "details-url": "./projects/goodmj/details",
+            "live-demo-url": "https://goodmj.app",
+            "image-url": "./assets/goodmj-home-preview.jpg"
+        },
+        {
+            "title": "frontEndFury",
+            "description": "Front-end development education platform, 100% free.",
+            "details-url": "./projects/frontendfury/details",
+            "live-demo-url": "https://frontendfury.com",
+            "image-url": "./assets/frontendfury-home-preview.jpg"
+        },
+        {
+            "title": "Pink Cloud",
+            "description": "Sober support and wellbeing app.",
+            "details-url": "./projects/pinkcloud/details",
+            "live-demo-url": "https://pinkcloud.vercel.app",
+            "image-url": "./assets/pinkcloud-home-preview.jpg"
+        }
+    ]
+}

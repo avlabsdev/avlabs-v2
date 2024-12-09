@@ -6,126 +6,136 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AV Labs - Professional Web Development</title>
   <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon" />
-  <script src="https://kit.fontawesome.com/4a62263e08.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./style.css" />
+  <script src="https://kit.fontawesome.com/4a62263e08.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <a href="./" class="logo"><i class="fa-solid fa-flask-round-potion"></i>AV Labs</a>
-      <nav>
-        <a href="./" id="button-home"><i class="fa-solid fa-house"></i>Home</a>
-        <a href="./services"><i class="fa-solid fa-bell-concierge"></i>Services</a>
-        <a href="./projects"><i class="fa-solid fa-rectangle-history"></i>Projects</a>
-        <a href="./pricing"><i class="fa-solid fa-tag"></i>Pricing</a>
-        <a href="./support"><i class="fa-solid fa-headset"></i>Support</a>
-      </nav>
-    </div>
+  <header class="container mx-auto flex flex-row justify-between items-center">
+    <a href="./" class="flex flex-row gap-2 items-center font-bold text-xl custom-text-dark"><i
+        class="fa-solid fa-flask-round-potion custom-text-blue"></i>AV
+      Labs</a>
+    <nav class="flex flex-row items-center gap-16">
+      <a href="./" id="button-home" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
+          class="fa-solid fa-house custom-text-blue"></i>Home</a>
+      <a href="./services" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
+          class="fa-solid fa-bell-concierge custom-text-blue"></i>Services</a>
+      <a href="./projects" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
+          class="fa-solid fa-rectangle-history custom-text-blue"></i>Projects</a>
+      <a href="./pricing" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
+          class="fa-solid fa-tag custom-text-blue"></i>Pricing</a>
+      <a href="./support" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
+          class="fa-solid fa-headset custom-text-blue"></i>Support</a>
+    </nav>
   </header>
-  <main>
-    <section id="section-intro">
-      <div class="container">
-        <img src="./assets/undraw_undraw_design_1w1r_-1-_812s.svg" alt="Illustration by unDraw" />
-        <div class="copy">
-          <h1>
-            Fast, modern, beautiful. <i class="fa-solid fa-sparkles"></i>
-          </h1>
-          <p>Welcome to your new <span class="italic">all-star</span> web design and development team!</p>
-          <p>
-            The process isn't complicated. We listen to your goals, questions,
-            and concerns. We create a plan for you and implement it precisely.
-          </p>
-          <p>
-            Your project is built in a few phases which you approve each step of the way before you launch and go live
-            to the world.
-          </p>
-          <p class="italic">*Ongoing maintenance and support is available.</p>
-          <div class="button-container">
-            <a href="./services" class="button-primary">View Services</a>
-            <a href="#section-services" class="button-secondary">Get Started</a>
-          </div>
+  <main class="container mx-auto flex flex-col gap-64">
+    <section class="flex flex-row items-center gap-16">
+      <img src="./assets/undraw_undraw_design_1w1r_-1-_812s.svg" alt="Illustration by unDraw" class="w-1/2" />
+      <div class="w-1/2 flex flex-col gap-4">
+        <h1 class="text-8xl font-bold custom-text-dark">
+          Fast, modern, beautiful. <i class="fa-solid fa-sparkles custom-text-blue"></i>
+        </h1>
+        <p>Welcome to your new <span class="italic">all-star</span> web design and development team!</p>
+        <p>
+          The process isn't complicated. We listen to your goals, questions,
+          and concerns. We create a plan for you and implement it precisely.
+        </p>
+        <p>
+          Your project is built in a few phases which you approve each step of the way before you launch and go live
+          to the world.
+        </p>
+        <p class="italic">*Ongoing maintenance and support is available.</p>
+        <div class="flex flex-row gap-2 mt-4">
+          <a href="./services" class="custom-bg-blue text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium">View
+            Services</a>
+          <a href="#services" class="custom-bg-dark text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium">Get
+            Started</a>
         </div>
       </div>
     </section>
-    <section id="section-services">
-      <div class="container">
-        <div class="copy">
-          <h2>
-            How can we help? <i class="fa-solid fa-handshake-angle"></i>
-          </h2>
-          <p>
-            We build anything from blogs to eCommerce websites and more.
-          </p>
-          <p>
-            You've come to the right place! We can help
-            you with everything from design to development
-            and everywhere in between. A straight-forward process that meets
-            your business goals.
-          </p>
-          <p>
-            Let us worry about your web design and development needs so you
-            can focus on running your business. We've got you covered!
-          </p>
-          <div class="button-container">
-            <a href="./services" class="button-primary">Web Design</a>
-            <a href="./pricing" class="button-secondary">Web Development</a>
-          </div>
-        </div>
-        <img src="./assets/undraw_undraw_undraw_undraw_selection_f3no_jw9h_-1-_nxfh_-1-_6d1x.svg"
-          alt="Illustration by unDraw" />
-      </div>
-    </section>
-    <section id="section-projects">
-      <div class="container">
-        <img src="./assets/undraw_designer_life_re_6ywf.svg" alt="Illustration by unDraw" />
-        <div class="copy">
-          <h2>
-            View our work! <i class="fa-solid fa-eye"></i>
-          </h2>
-          <p>
-            The proof is in our work. View our projects for inspiration!
-          </p>
-          <p>
-            We build everything from business or eCommerce websites to education platforms and beyond. We have decades
-            of experience in the web industry building cutting-edge solutions.
-          </p>
-          <p>
-            Have questions? Reach out to us! We'd love to hear from you!
-          </p>
-          <div class="button-container">
-            <a href="./projects" class="button-primary">View Projects</a>
-            <a href="./support" class="button-secondary">Contact Us</a>
-          </div>
+    <section id="services" class="flex flex-row items-center gap-16">
+      <div class="w-1/2 flex flex-col gap-4">
+        <h2 class="text-6xl font-bold custom-text-dark">
+          How can we help? <i class="fa-solid fa-handshake-angle custom-text-blue"></i>
+        </h2>
+        <p>
+          We build anything from blogs to eCommerce websites and more.
+        </p>
+        <p>
+          You've come to the right place! We can help
+          you with everything from design to development
+          and everywhere in between. A straight-forward process that meets
+          your business goals.
+        </p>
+        <p>
+          Let us worry about your web design and development needs so you
+          can focus on running your business. We've got you covered!
+        </p>
+        <div class="flex flex-row items-center gap-2 mt-4">
+          <a href="./services" class="custom-bg-blue text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium">Web
+            Design</a>
+          <a href="./pricing" class="custom-bg-dark text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium">Web
+            Development</a>
         </div>
       </div>
+      <img src="./assets/undraw_undraw_undraw_undraw_selection_f3no_jw9h_-1-_nxfh_-1-_6d1x.svg"
+        alt="Illustration by unDraw" class="w-1/2" />
     </section>
-    <section id="section-pricing">
-      <div class="container">
-        <div class="copy">
-          <h2>
-            Estimate your costs <i class="fa-solid fa-calculator"></i>
-          </h2>
-          <p>
-            Get a quick and instant quote estimate for your next project!
-          </p>
-          <p>
-            Get an idea of what your cost-breakdown may look like with regard to what your business goals are.
-            We don't like surprises!
-          </p>
-          <p>
-            After you submit a project inquiry, we will finalize the details and project costs for you so that you can
-            make the best decisions for you and your budget.
-          </p>
-          <div class="button-container">
-            <a href="./quote" class="button-primary">Get Quote</a>
-            <a href="./inquiry" class="button-secondary">Project Inquiry</a>
-          </div>
+    <section class="flex flex-row items-center gap-16">
+      <img src="./assets/undraw_designer_life_re_6ywf.svg" alt="Illustration by unDraw" class="w-1/2" />
+      <div class="w-1/2 flex flex-col gap-4">
+        <h2 class="text-6xl font-bold custom-text-dark">
+          View our work! <i class="fa-solid fa-eye custom-text-blue"></i>
+        </h2>
+        <p>
+          The proof is in our work. View our projects for inspiration!
+        </p>
+        <p>
+          We build everything from business or eCommerce websites to education platforms and beyond. We have decades
+          of experience in the web industry building cutting-edge solutions.
+        </p>
+        <p>
+          Have questions? Reach out to us! We'd love to hear from you!
+        </p>
+        <div class="flex flex-row items-center gap-2 mt-4">
+          <a href="./projects" class="custom-bg-blue text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium">View
+            Projects</a>
+          <a href="./support"
+            class="custom-bg-dark text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium">Contact Us</a>
         </div>
-        <img src="./assets/undraw_discount_d-4-bd.svg" alt="Illustration by unDraw" />
       </div>
     </section>
-    <section id="section-support">
+    <section class="flex flex-row items-center gap-16">
+      <div class="w-1/2 flex flex-col gap-4">
+        <h2>
+          Estimate your costs <i class="fa-solid fa-calculator"></i>
+        </h2>
+        <p>
+          Get a quick and instant quote estimate for your next project!
+        </p>
+        <p>
+          Get an idea of what your cost-breakdown may look like with regard to what your business goals are.
+          We don't like surprises!
+        </p>
+        <p>
+          After you submit a project inquiry, we will finalize the details and project costs for you so that you can
+          make the best decisions for you and your budget.
+        </p>
+        <div class="button-container">
+          <a href="./quote" class="button-primary">Get Quote</a>
+          <a href="./inquiry" class="button-secondary">Project Inquiry</a>
+        </div>
+      </div>
+      <img src="./assets/undraw_discount_d-4-bd.svg" alt="Illustration by unDraw" class="w-1/2" />
+      </div>
+    </section>
+    <section>
       <div class="container">
         <img src="./assets/undraw_showing_support_re_5f2v.svg" alt="Illustration by unDraw" />
         <div class="copy">
