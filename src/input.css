@@ -10,7 +10,6 @@
     font-family: Poppins, sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 8rem;
     padding: 3rem 2rem;
     background-color: #fff;
   }
@@ -77,15 +76,19 @@
     }
 
     main {
-        @apply container mx-auto flex flex-col gap-64;
+        @apply container mx-auto flex flex-col gap-16;
     }
 
     section {
-        @apply flex flex-row items-center gap-16;
+        @apply flex flex-row items-center gap-16 py-32;
     }
 
     footer {
         @apply container mx-auto flex flex-row items-center justify-between;
+    }
+
+    footer span {
+        @apply flex flex-row items-center gap-4;
     }
 
     footer i {

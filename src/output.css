@@ -727,7 +727,7 @@ main {
   margin-right: auto;
   display: flex;
   flex-direction: column;
-  gap: 16rem;
+  gap: 4rem;
 }
 
 section {
@@ -735,6 +735,8 @@ section {
   flex-direction: row;
   align-items: center;
   gap: 4rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 footer {
@@ -778,6 +780,13 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+footer span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
 }
 
 footer i {
@@ -2755,7 +2764,6 @@ body {
   font-family: Poppins, sans-serif;
   display: flex;
   flex-direction: column;
-  gap: 8rem;
   padding: 3rem 2rem;
   background-color: #fff;
 }

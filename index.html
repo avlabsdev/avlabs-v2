@@ -16,28 +16,27 @@
 
 <body>
   <header>
-    <a href="./" class="flex flex-row gap-2 items-center font-bold text-xl custom-text-dark"><i
-        class="fa-solid fa-flask-round-potion custom-text-blue"></i>AV
+    <a href="./" class="logo"><i class="fa-solid fa-flask-round-potion"></i>AV
       Labs</a>
     <nav>
       <a href="./" id="button-home" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
           class="fa-solid fa-house custom-text-blue"></i>Home</a>
       <a href="./services" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
           class="fa-solid fa-bell-concierge custom-text-blue"></i>Services</a>
-      <a href="./projects" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
-          class="fa-solid fa-rectangle-history custom-text-blue"></i>Projects</a>
+      <!-- <a href="./projects" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
+          class="fa-solid fa-rectangle-history custom-text-blue"></i>Projects</a> -->
       <a href="./pricing" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
           class="fa-solid fa-tag custom-text-blue"></i>Pricing</a>
       <a href="./support" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
           class="fa-solid fa-headset custom-text-blue"></i>Support</a>
     </nav>
   </header>
-  <main class="container mx-auto flex flex-col gap-64">
-    <section class="flex flex-row items-center gap-16">
+  <main>
+    <section>
       <img src="./assets/undraw_undraw_design_1w1r_-1-_812s.svg" alt="Illustration by unDraw" class="w-1/2" />
-      <div class="w-1/2 flex flex-col gap-4">
-        <h1 class="text-8xl font-bold custom-text-dark">
-          Fast, modern, beautiful. <i class="fa-solid fa-sparkles custom-text-blue"></i>
+      <div class="copy-wrapper">
+        <h1>
+          Fast, modern, beautiful. <i class="fa-solid fa-sparkles"></i>
         </h1>
         <p>Welcome to your new <span class="italic">all-star</span> web design and development team!</p>
         <p>
@@ -49,17 +48,17 @@
           to the world.
         </p>
         <p class="italic">*Ongoing maintenance and support is available.</p>
-        <div class="flex flex-row gap-2 mt-4">
-          <a href="./services" class="custom-bg-blue text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium">View
+        <div class="btn-wrapper">
+          <a href="./services" class="btn-primary">View
             Services</a>
-          <a href="#services" class="custom-bg-dark text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium">Get
+          <a href="#services" class="btn-secondary">Get
             Started</a>
         </div>
       </div>
     </section>
-    <section id="services" class="flex flex-row items-center gap-16">
-      <div class="w-1/2 flex flex-col gap-4">
-        <h2 class="text-6xl font-bold custom-text-dark">
+    <section id="services">
+      <div class="copy-wrapper">
+        <h2>
           How can we help? <i class="fa-solid fa-handshake-angle custom-text-blue"></i>
         </h2>
         <p>
@@ -75,21 +74,21 @@
           Let us worry about your web design and development needs so you
           can focus on running your business. We've got you covered!
         </p>
-        <div class="flex flex-row items-center gap-2 mt-4">
-          <a href="./services" class="custom-bg-blue text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium">Web
+        <div class="btn-wrapper">
+          <a href="./services" class="btn-primary">Web
             Design</a>
-          <a href="./pricing" class="custom-bg-dark text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium">Web
+          <a href="./pricing" class="btn-secondary">Web
             Development</a>
         </div>
       </div>
       <img src="./assets/undraw_undraw_undraw_undraw_selection_f3no_jw9h_-1-_nxfh_-1-_6d1x.svg"
         alt="Illustration by unDraw" class="w-1/2" />
     </section>
-    <section class="flex flex-row items-center gap-16">
+    <section>
       <img src="./assets/undraw_designer_life_re_6ywf.svg" alt="Illustration by unDraw" class="w-1/2" />
-      <div class="w-1/2 flex flex-col gap-4">
-        <h2 class="text-6xl font-bold custom-text-dark">
-          View our work! <i class="fa-solid fa-eye custom-text-blue"></i>
+      <div class="copy-wrapper">
+        <h2>
+          View our work! <i class="fa-solid fa-eye"></i>
         </h2>
         <p>
           The proof is in our work. View our projects for inspiration!
@@ -101,18 +100,17 @@
         <p>
           Have questions? Reach out to us! We'd love to hear from you!
         </p>
-        <div class="flex flex-row items-center gap-2 mt-4">
-          <a href="./projects" class="custom-bg-blue text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium">View
+        <div class="btn-wrapper">
+          <a href="./projects" class="btn-primary">View
             Projects</a>
-          <a href="./support"
-            class="custom-bg-dark text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium">Contact Us</a>
+          <a href="./support" class="btn-secondary">Contact Us</a>
         </div>
       </div>
     </section>
-    <section class="flex flex-row items-center gap-16">
-      <div class="w-1/2 flex flex-col gap-4">
-        <h2 class="text-6xl font-bold custom-text-dark">
-          Estimate your costs <i class="fa-solid fa-calculator custom-text-blue"></i>
+    <section>
+      <div class="copy-wrapper">
+        <h2>
+          Estimate your costs <i class="fa-solid fa-calculator"></i>
         </h2>
         <p>
           Get a quick and instant quote estimate for your next project!
@@ -125,21 +123,20 @@
           After you submit a project inquiry, we will finalize the details and project costs for you so that you can
           make the best decisions for you and your budget.
         </p>
-        <div class="flex flex-row items-center gap-2 mt-4">
-          <a href="./quote" class="custom-bg-blue text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium">Get
+        <div class="btn-wrapper">
+          <a href="./quote" class="btn-primary">Get
             Quote</a>
-          <a href="./inquiry"
-            class="custom-bg-dark text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium">Project Inquiry</a>
+          <a href="./inquiry" class="btn-secondary">Project Inquiry</a>
         </div>
       </div>
       <img src="./assets/undraw_discount_d-4-bd.svg" alt="Illustration by unDraw" class="w-1/2" />
       </div>
     </section>
-    <section class="flex flex-row items-center gap-16">
+    <section>
       <img src="./assets/undraw_showing_support_re_5f2v.svg" alt="Illustration by unDraw" class="w-1/2" />
-      <div class="w-1/2 flex flex-col gap-4">
-        <h2 class="text-6xl font-bold custom-text-dark">
-          Reach out to us! <i class="fa-solid fa-messages custom-text-blue"></i>
+      <div class="copy-wrapper">
+        <h2>
+          Reach out to us! <i class="fa-solid fa-messages"></i>
         </h2>
         <p>
           We are just a click away if you have any questions!
@@ -151,10 +148,10 @@
         <p>
           We will get back to you within 24-48 hours after your submission.
         </p>
-        <div class="flex flex-row items-center gap-2 mt-4">
-          <a href="./projects" class="custom-bg-blue text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium">Send
+        <div class="btn-wrapper">
+          <a href="./projects" class="btn-primary">Send
             Message</a>
-          <a href="./support" class="custom-bg-dark text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium">Get
+          <a href="./support" class="btn-secondary">Get
             Support</a>
         </div>
       </div>
@@ -162,7 +159,7 @@
   </main>
   <footer>
     <p>&copy; AV Labs 2024. All rights reserved.</p>
-    <span class="flex flex-row items-center gap-4">
+    <span>
       <a href="https://github.com/avlabsdev" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
       <a href="https://dribbble.com/avlabsdev" target="_blank" title="Dribbble"><i
           class="fa-brands fa-dribbble"></i></a>
