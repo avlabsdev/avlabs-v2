@@ -1,3 +1,110 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Poppins, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    padding: 3rem 2rem;
+    background-color: #fff;
+  }
+  
+  .custom-text-blue {
+    color: #6c63ff
+  }
+  
+  .custom-bg-blue {
+    background-color: #6c63ff
+  }
+  
+  .custom-text-dark {
+    color: #2f2e43;
+  }
+  
+  .custom-bg-dark {
+    background-color: #2f2e43;
+  }
+  
+  p {
+    color: #2f2e43bf;
+  }
+
+  @layer components {
+    h1 {
+      @apply text-8xl font-bold custom-text-dark;
+    }
+
+    h1 > i {
+        @apply custom-text-blue;
+    }
+    
+    h2 {
+      @apply text-6xl font-bold custom-text-dark;
+    }
+
+    h2 > i {
+        @apply custom-text-blue;
+    }
+
+    header {
+        @apply container mx-auto flex flex-row justify-between items-center;
+    }
+
+    header nav {
+        @apply flex flex-row items-center gap-16;
+    }
+
+    header nav a {
+        @apply custom-text-dark font-medium flex flex-row items-center gap-2;
+    }
+
+    header nav a i {
+        @apply custom-text-blue;
+    }
+
+    .logo {
+        @apply flex flex-row gap-2 items-center font-bold text-xl custom-text-dark;
+    }
+
+    .logo i {
+        @apply custom-text-blue;
+    }
+
+    main {
+        @apply container mx-auto flex flex-col gap-64;
+    }
+
+    section {
+        @apply flex flex-row items-center gap-16;
+    }
+
+    footer {
+        @apply container mx-auto flex flex-row items-center justify-between;
+    }
+
+    footer i {
+        @apply custom-text-blue text-2xl;
+    }
+
+    .copy-wrapper {
+        @apply w-1/2 flex flex-col gap-4;
+    }
+
+    .btn-wrapper {
+        @apply flex flex-row gap-2 mt-4;
+    }
+
+    .btn-primary {
+        @apply custom-bg-blue text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium;
+    }
+
+    .btn-secondary {
+        @apply custom-bg-dark text-white py-4 px-8 rounded-lg w-1/2 text-center font-medium;
+    }
+}

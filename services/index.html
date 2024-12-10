@@ -5,27 +5,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Professional web development services">
-  <title>Services / AV Labs - Professional Web Development</title>
+  <title>Services > AV Labs - Professional Web Development</title>
   <link rel="shortcut icon" href="../assets/favicon.svg" type="image/x-icon" />
   <link href="../assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
   <link href="../assets/fontawesome/css/brands.css" rel="stylesheet" />
   <link href="../assets/fontawesome/css/solid.css" rel="stylesheet" />
   <link href="../src/output.css" rel="stylesheet" />
-  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../fonts.css" />
 </head>
 
 <body>
-  <header class="container mx-auto flex flex-row justify-between items-center">
-    <a href="../" class="flex flex-row gap-2 items-center font-bold text-xl custom-text-dark"><i
-        class="fa-solid fa-flask-round-potion custom-text-blue"></i>AV
+  <header>
+    <a href="../" class="logo"><i class="fa-solid fa-flask-round-potion custom-text-blue"></i>AV
       Labs</a>
-    <nav class="flex flex-row items-center gap-16">
-      <a href="../" id="button-home" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
-          class="fa-solid fa-house custom-text-blue"></i>Home</a>
-      <a href="../services" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
-          class="fa-solid fa-bell-concierge custom-text-blue"></i>Services</a>
-      <a href="../projects" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
-          class="fa-solid fa-rectangle-history custom-text-blue"></i>Projects</a>
+    <nav>
+      <a href="../"><i class="fa-solid fa-house"></i>Home</a>
+      <a href="../services"><i class="fa-solid fa-bell-concierge"></i>Services</a>
+      <a href="../projects"><i class="fa-solid fa-rectangle-history"></i>Projects</a>
       <a href="../pricing" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
           class="fa-solid fa-tag custom-text-blue"></i>Pricing</a>
       <a href="../support" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
@@ -33,137 +29,126 @@
     </nav>
   </header>
   <main>
-    <section id="page-section-services">
-      <div class="container">
-        <img src="../assets/undraw_services_re_hu5n.svg" alt="Illustration by unDraw" />
-        <div class="copy">
-          <h1>
-            Services you can count on. <i class="fa-solid fa-badge-check"></i>
-          </h1>
-          <p>Welcome to your new <span class="italic">all-star</span> web design and development team!</p>
-          <p>
-            The process isn't complicated. We listen to your goals, questions,
-            and concerns. We create a plan for you and implement it precisely.
-          </p>
-          <p>
-            Your project is built in a few phases which you approve each step of the way before you launch and go live
-            to the world.
-          </p>
-          <p class="italic">*Ongoing maintenance and support is available.</p>
-          <div class="button-container">
-            <a href="#page-section-design" class="button-primary">View Services</a>
-            <a href="../pricing" class="button-secondary">View Pricing</a>
-          </div>
+    <section>
+      <img src="../assets/undraw_services_re_hu5n.svg" alt="Illustration by unDraw" class="w-1/2" />
+      <div class="copy-wrapper">
+        <h1>
+          Services you can trust. <i class="fa-solid fa-badge-check"></i>
+        </h1>
+        <p>Welcome to your new <span class="italic">all-star</span> web design and development team!</p>
+        <p>
+          The process isn't complicated. We listen to your goals, questions,
+          and concerns. We create a plan for you and implement it precisely.
+        </p>
+        <p>
+          Your project is built in a few phases which you approve each step of the way before you launch and go live
+          to the world.
+        </p>
+        <p class="italic">*Ongoing maintenance and support is available.</p>
+        <div class="btn-wrapper">
+          <a href="#design" class="btn-primary">View Services</a>
+          <a href="../pricing" class="btn-secondary">View
+            Pricing</a>
         </div>
       </div>
     </section>
-    <section id="page-section-design">
-      <div class="container">
-        <div class="copy">
-          <h2>
-            Intuitive design <i class="fa-solid fa-diamonds-4"></i>
-          </h2>
-          <p>
-            Modern, fast, beautiful, and professional user interface and user experience design services so you not only
-            look amazing, but
-            feel amazing to your
-            users!
-          </p>
-          <p>
-            Every web project needs eye-catching interfaces while making each user's experience a breeze and a joy to
-            use.
-          </p>
-          <p>
-            With our decades of design experience, we will ensure you have a beautiful and seamless user experience.
-          </p>
-          <div class="button-container">
-            <a href="../ui" class="button-primary">User Interface Design</a>
-            <a href="../ux" class="button-secondary">User Experience Design</a>
-          </div>
+    <section id="design">
+      <div class="copy-wrapper">
+        <h2>
+          Intuitive design <i class="fa-solid fa-diamonds-4"></i>
+        </h2>
+        <p>
+          Modern, fast, beautiful, and professional user interface and user experience design services so you not only
+          look amazing, but
+          feel amazing to your
+          users!
+        </p>
+        <p>
+          Every web project needs eye-catching interfaces while making each user's experience a breeze and a joy to
+          use.
+        </p>
+        <p>
+          With our decades of design experience, we will ensure you have a beautiful and seamless user experience.
+        </p>
+        <div class="btn-wrapper">
+          <a href="../ui" class="btn-primary">User Interface Design</a>
+          <a href="../ux" class="btn-secondary">User Experience Design</a>
         </div>
-        <img src="../assets/undraw_heatmap_uyye.svg" alt="Illustration by unDraw" />
       </div>
+      <img src="../assets/undraw_heatmap_uyye.svg" alt="Illustration by unDraw" class="w-1/2" />
     </section>
-    <section id="page-section-development">
-      <div class="container">
-        <img src="../assets/undraw_web_development_0l6v.svg" alt="Illustration by unDraw" />
-        <div class="copy">
-          <h2>
-            Feature-rich development <i class="fa-solid fa-layer-group"></i>
-          </h2>
-          <p>All of the integrations you need to meet and exceed your business goals at a price that will make you
-            smile.</p>
-          <p>
-            Whether you need a blog, an eCommerce store, a business website, or more, you can have it all.
-          </p>
-          <p>
-            We're going places fast. There's no time to wait!
-          </p>
-          <div class="button-container">
-            <a href="../frontend" class="button-primary">Front-End Development</a>
-            <a href="../backend" class="button-secondary">Back-End Development</a>
-          </div>
+    <section>
+      <img src="../assets/undraw_web_development_0l6v.svg" alt="Illustration by unDraw" class="w-1/2" />
+      <div class="copy-wrapper">
+        <h2>
+          Feature-rich development <i class="fa-solid fa-layer-group"></i>
+        </h2>
+        <p>All of the integrations you need to meet and exceed your business goals at a price that will make you
+          smile.</p>
+        <p>
+          Whether you need a blog, an eCommerce store, a business website, or more, you can have it all.
+        </p>
+        <p>
+          We're going places fast. There's no time to wait!
+        </p>
+        <div class="btn-wrapper">
+          <a href="../frontend" class="btn-primary">Front-End Development</a>
+          <a href="../backend" class="btn-secondary">Back-End Development</a>
         </div>
       </div>
     </section>
-    <section id="page-section-management">
-      <div class="container">
-        <div class="copy">
-          <h2>
-            Web management <i class="fa-solid fa-list-check"></i>
-          </h2>
-          <p>
-            Your dream website has been built. Now what?
-          </p>
-          <p>
-            Even if you have an amazing website today, technology moves lightning-fast, quickly leaving you and your
-            business in the dust.
-          </p>
-          <p>
-            You will need ongoing maintenance and enhancements to keep your audience engaged and your business
-            up-to-date with the latest and greatest technologies. Don't get left behind!
-          </p>
-          <div class="button-container">
-            <a href="../maintenance" class="button-primary">Maintenance</a>
-            <a href="../enhancements" class="button-secondary">Enhancements</a>
-          </div>
+    <section>
+      <div class="copy-wrapper">
+        <h2>
+          Web management <i class="fa-solid fa-list-check"></i>
+        </h2>
+        <p>
+          Your dream website has been built. Now what?
+        </p>
+        <p>
+          Even if you have an amazing website today, technology moves lightning-fast, quickly leaving you and your
+          business in the dust.
+        </p>
+        <p>
+          You will need ongoing maintenance and enhancements to keep your audience engaged and your business
+          up-to-date with the latest and greatest technologies. Don't get left behind!
+        </p>
+        <div class="btn-wrapper">
+          <a href="../maintenance" class="btn-primary">Maintenance</a>
+          <a href="../enhancements" class="btn-secondary">Enhancements</a>
         </div>
-        <img src="../assets/undraw_clean_up_re_504g.svg" alt="Illustration by unDraw" />
       </div>
+      <img src="../assets/undraw_clean_up_re_504g.svg" alt="Illustration by unDraw" class="w-1/2" />
     </section>
-    <section id="page-section-inquire">
-      <div class="container">
-        <img src="../assets/undraw_happy_announcement_re_tsm0.svg" alt="Illustration by unDraw" />
-        <div class="copy">
-          <h2>
-            Like what ya hear? <i class="fa-solid fa-face-smile"></i>
-          </h2>
-          <p>Get a quote or send us a message about your next project!</p>
-          <p>
-            Nothing is final until you say so. There are no commitments or fees to getting a quote or inquiring about
-            your next
-            big project!
-          </p>
-          <p>
-            We're going places fast. There's no time to wait!
-          </p>
-          <div class="button-container">
-            <a href="../quote" class="button-primary">Get Quote</a>
-            <a href="../inquiry" class="button-secondary">Project Inquiry</a>
-          </div>
+    <section>
+      <img src="../assets/undraw_happy_announcement_re_tsm0.svg" alt="Illustration by unDraw" class="w-1/2" />
+      <div class="copy-wrapper">
+        <h2>
+          Like what ya hear? <i class="fa-solid fa-face-smile"></i>
+        </h2>
+        <p>Get a quote or send us a message about your next project!</p>
+        <p>
+          Nothing is final until you say so. There are no commitments or fees to getting a quote or inquiring about
+          your next
+          big project!
+        </p>
+        <p>
+          We're going places fast. There's no time to wait!
+        </p>
+        <div class="btn-wrapper">
+          <a href="../quote" class="btn-primary">Get Quote</a>
+          <a href="../inquiry" class="btn-secondary">Project Inquiry</a>
         </div>
       </div>
     </section>
   </main>
   <footer>
-    <div class="container">
-      <p>&copy; AV Labs 2024. All rights reserved.</p>
-      <span>
-        <a href="https://github.com/avlabsdev" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
-        <a href="https://dribbble.com/avlabsdev" target="_blank" title="Dribbble"><i
-            class="fa-brands fa-dribbble"></i></a>
-      </span>
-    </div>
+    <p>&copy; AV Labs 2024. All rights reserved.</p>
+    <span class="flex flex-row items-center gap-4">
+      <a href="https://github.com/avlabsdev" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://dribbble.com/avlabsdev" target="_blank" title="Dribbble"><i
+          class="fa-brands fa-dribbble"></i></a>
+    </span>
   </footer>
   <script src="../script.js" defer></script>
 </body>

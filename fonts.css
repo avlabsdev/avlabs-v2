@@ -142,36 +142,3 @@
   font-weight: 900;
   src: url('./fonts/poppins-v22-latin-900italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
-body {
-  font-family: Poppins, sans-serif;
-  display: flex;
-  flex-direction: column;
-  gap: 8rem;
-  padding: 3rem 2rem;
-  background-color: #fff;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-.custom-text-blue {
-  color: #6c63ff
-}
-
-.custom-bg-blue {
-  background-color: #6c63ff
-}
-
-.custom-text-dark {
-  color: #2f2e43;
-}
-
-.custom-bg-dark {
-  background-color: #2f2e43;
-}
-
-p {
-  color: #2f2e43bf;
-}
