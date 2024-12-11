@@ -2,16 +2,12 @@
 @tailwind components;
 @tailwind utilities;
   
-  html {
-    scroll-behavior: smooth;
-  }
-  
   body {
     font-family: Poppins, sans-serif;
     display: flex;
     flex-direction: column;
-    padding: 3rem 2rem;
     background-color: #fff;
+    position: relative;
   }
   
   .custom-text-blue {
@@ -35,6 +31,14 @@
   }
 
   @layer components {
+    form {
+        @apply flex flex-col gap-4;
+    }
+
+    input, textarea {
+        @apply border rounded-lg py-4 px-2;
+    }
+
     h1 {
       @apply text-8xl font-bold custom-text-dark;
     }
@@ -52,7 +56,7 @@
     }
 
     header {
-        @apply container mx-auto flex flex-row justify-between items-center;
+        @apply container mx-auto flex flex-row justify-between items-center mt-12;
     }
 
     header nav {
@@ -76,15 +80,15 @@
     }
 
     main {
-        @apply container mx-auto flex flex-col gap-16;
+        @apply container mx-auto flex flex-col gap-16 relative;
     }
 
     section {
-        @apply flex flex-row items-center gap-16 py-32;
+        @apply flex flex-row items-center gap-16 py-32 relative;
     }
 
     footer {
-        @apply container mx-auto flex flex-row items-center justify-between;
+        @apply container mx-auto flex flex-row items-center justify-between mb-12;
     }
 
     footer span {
