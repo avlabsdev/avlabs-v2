@@ -6,27 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Professional web development services">
   <title>Pricing / AV Labs - Professional Web Development</title>
-  <link rel="shortcut icon" href="../assets/favicon.svg" type="image/x-icon" />
-  <link href="../assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
-  <link href="../assets/fontawesome/css/brands.css" rel="stylesheet" />
-  <link href="../assets/fontawesome/css/solid.css" rel="stylesheet" />
-  <link href="../src/output.css" rel="stylesheet" />
-  <link rel="stylesheet" href="../fonts/fonts.css" />
+  <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon" />
+  <link href="./assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+  <link href="./assets/fontawesome/css/brands.css" rel="stylesheet" />
+  <link href="./assets/fontawesome/css/solid.css" rel="stylesheet" />
+  <link href="./src/output.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./fonts/fonts.css" />
 </head>
 
 <body>
-  <header>
-    <a href="../" class="logo"><i class="fa-solid fa-flask-round-potion"></i>AV Labs</a>
-    <nav>
-      <a href="../" id="button-home"><i class="fa-solid fa-house"></i>Home</a>
-      <a href="../services"><i class="fa-solid fa-bell-concierge"></i>Services</a>
-      <a href="../pricing"><i class="fa-solid fa-tag"></i>Pricing</a>
-      <a href="../support"><i class="fa-solid fa-headset"></i>Support</a>
-    </nav>
-  </header>
+  <?php include './includes/components/header.php'; ?>
   <main>
     <section>
-      <img src="../assets/undraw_savings_re_eq4w.svg" alt="Illustration by unDraw" class="w-1/2" />
+      <img src="./assets/undraw_savings_re_eq4w.svg" alt="Illustration by unDraw" class="w-1/2" />
       <div class="copy-wrapper">
         <h1>
           Fair and affordable! <i class="fa-solid fa-square-dollar"></i>
@@ -69,17 +61,10 @@
           <a href="../pricing" class="btn-secondary">Web Development</a>
         </div>
       </div>
-      <img src="../assets/undraw_selected_options_re_vtjd.svg" alt="Illustration by unDraw" class="w-1/2" />
+      <img src="./assets/undraw_selected_options_re_vtjd.svg" alt="Illustration by unDraw" class="w-1/2" />
     </section>
   </main>
-  <footer>
-    <p>&copy; AV Labs 2024. All rights reserved.</p>
-    <span>
-      <a href="https://github.com/avlabsdev" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
-      <a href="https://dribbble.com/avlabsdev" target="_blank" title="Dribbble"><i
-          class="fa-brands fa-dribbble"></i></a>
-    </span>
-  </footer>
+  <?php include './includes/components/footer.php'; ?>
 </body>
 
 </html>

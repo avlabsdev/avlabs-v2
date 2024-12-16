@@ -35,20 +35,7 @@
         suscipit delectus nostrum quam! Veritatis nesciunt eos, architecto aliquam ipsam quae iste omnis vitae?</p>
     </div>
   </div> -->
-  <header>
-    <a href="./" class="logo"><i class="fa-solid fa-flask-round-potion"></i>AV
-      Labs</a>
-    <nav>
-      <a href="./" id="button-home" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
-          class="fa-solid fa-house custom-text-blue"></i>Home</a>
-      <a href="./services" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
-          class="fa-solid fa-bell-concierge custom-text-blue"></i>Services</a>
-      <a href="./pricing" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
-          class="fa-solid fa-tag custom-text-blue"></i>Pricing</a>
-      <a href="./support" class="custom-text-dark font-medium flex flex-row items-center gap-2"><i
-          class="fa-solid fa-headset custom-text-blue"></i>Support</a>
-    </nav>
-  </header>
+  <?php include './includes/components/header.php'; ?>
   <main>
     <section>
       <img src="./assets/undraw_undraw_design_1w1r_-1-_812s.svg" alt="Illustration by unDraw" class="w-1/2" />
@@ -175,14 +162,7 @@
       </div>
     </section>
   </main>
-  <footer>
-    <p>&copy; AV Labs 2024. All rights reserved.</p>
-    <span>
-      <a href="https://github.com/avlabsdev" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
-      <a href="https://dribbble.com/avlabsdev" target="_blank" title="Dribbble"><i
-          class="fa-brands fa-dribbble"></i></a>
-    </span>
-  </footer>
+  <?php include './includes/components/footer.php'; ?>
 </body>
 
 </html>
